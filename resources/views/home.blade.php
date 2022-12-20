@@ -146,7 +146,7 @@
     <script>
         let renders =
             @php
-                echo json_encode($reminders);
+                echo json_encode($reminders)
             @endphp
     </script>
 @stop
